@@ -1,14 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
+img {
+  border:pink ridge 10px;
+}
 
-h1, 
+h1 {
+  font-family: 'Nanum Gothic', sans-serif;
+  color:white;
+  text-shadow:2px 2px 4px #000000;
+  text-align: center;
+  border: pink double 2px;
+}
+
 h2 {
   font-family: 'Nanum Gothic', sans-serif;
+  color:white;
+  text-align: center;
+  border:pink groove 3px;
 }
 
 footer { 
    font-family:'Nanum Gothic', sans-serif;
+   text-align: center;
+   border:pink groove 4px;
 }
+
+ul { 
+  list-style-image: url(/images/icons/icon7.png);
+} 
 
 html {
   margin-top: 0;
@@ -18,4 +37,14 @@ html {
   width: 320px;
   font-family: 'Century Gothic', sans-serif;
   font-size: 18px;
+  background-image: url(/images/textures/light11a.png);
+  background-color: pink;
+}
+
+a:hover { 
+  color:white;
+}
+
+footer  { 
+  color: white;
 }
